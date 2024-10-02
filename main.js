@@ -1,7 +1,8 @@
-import './style.css'
-import {createProgressBar} from "./progress.js";
+import './styles/style.css'
+import {createProgressBar} from "./src/progress.js";
 
 
+// функция создания Progress бара и инициализация его параметров
 function start() {
     const root = document.querySelector("#root");
     if (!root) {

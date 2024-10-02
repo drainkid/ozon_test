@@ -5,11 +5,13 @@
 }
 
 :root {
-  --progress-color: #315cfb;
+  --progress-color: #0e41fa;
   --progress-color-calm: #315cfb;
-  --semi-transp-color: #D9D9EE;
+  --semi-transp-color: #efefef;
   --dark-border-color: #02040F;
-  --blueish-border-color: #315cfb;
+  --blueish-border-color: #355bef;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 @keyframes rotation {
@@ -41,7 +43,6 @@
 
 .title {
   font-size: 2rem;
-  font-family: sans-serif;
 }
 
 .progressBar {
@@ -107,7 +108,7 @@
   height: 2rem;
   text-align: center;
   border-radius: 30px;
-  border: var(--blueish-border-color) 1px solid;
+  border: var(--dark-border-color) 1px solid;
   font-size: 1rem;
   outline: none;
 }
@@ -155,7 +156,7 @@
   width: 1.75rem;
   height: 1.75rem;
   border-radius: 50%;
-  border: 1px solid var(--blueish-border-color);
+  border: 1px solid white;
   background-color: #fff;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
   -webkit-transition: left 0.25s ease;
@@ -200,3 +201,4 @@
     gap: 15px;
   }
 }
+
