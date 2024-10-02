@@ -172,9 +172,9 @@
 }
 
 
-@media only screen and (max-width: 569px) {
+@media only screen and (max-width: 569px) and (orientation: portrait) {
   .container {
-    margin: 25px 10px;
+    margin: 15px 5px;
   }
 
   .title {
@@ -183,22 +183,49 @@
 
   .progressBar {
     flex-direction: column;
-    gap: 4rem;
-    padding: 0 20%;
+    gap: 3rem;
+    padding: 0 10%;
   }
 
   .progressBar__circle {
-    width: 100%;
+    width: 80%;
   }
 
   .settings {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .progressBar__settings {
     align-self: center;
-    max-width: 100%;
-    gap: 15px;
+    gap: 10px;
   }
 }
 
+@media only screen and (max-width: 569px) and (orientation: landscape) {
+  .container {
+    margin: 10px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .progressBar {
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0 5%;
+  }
+
+  .progressBar__circle {
+    width: 40%;
+  }
+
+  .settings {
+    font-size: 0.875rem;
+  }
+
+  .progressBar__settings {
+    align-self: flex-start;
+    gap: 5px;
+  }
+}
