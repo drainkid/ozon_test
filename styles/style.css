@@ -110,6 +110,7 @@
   border-radius: 30px;
   border: var(--dark-border-color) 1px solid;
   font-size: 1rem;
+  font-weight: bold;
   outline: none;
 }
 
@@ -188,7 +189,8 @@
   }
 
   .progressBar__circle {
-    width: 80%;
+    width: 60%;
+    align-self: center;
   }
 
   .settings {
@@ -197,7 +199,6 @@
 
   .progressBar__settings {
     align-self: center;
-    gap: 10px;
   }
 }
 
@@ -217,7 +218,7 @@
   }
 
   .progressBar__circle {
-    width: 40%;
+    width: 30%;
   }
 
   .settings {
@@ -225,7 +226,6 @@
   }
 
   .progressBar__settings {
-    align-self: flex-start;
     gap: 5px;
   }
 }
