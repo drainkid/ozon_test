@@ -1,4 +1,4 @@
-# Реализация блока Progress
+# Тестовое задание для Ozon Fintech
 ## Деплой приложения
 
 [Тут](https://drainkid.github.io/ozon_test/)
